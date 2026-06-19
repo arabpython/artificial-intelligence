@@ -4,11 +4,8 @@
 
 ## رابط الدرس
 
-ضع رابط المقال هنا بعد النشر:
 
-```text
-https://www.arabpython.com/2026/../...
-```
+https://www.arabpython.com/2026/06/learn-ai-with-python-from-zero-roadmap.html
 
 ## فكرة الدرس
 
