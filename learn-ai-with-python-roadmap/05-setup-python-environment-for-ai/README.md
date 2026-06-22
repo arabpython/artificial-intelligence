@@ -4,7 +4,7 @@
 
 ## رابط الدرس
 
-https://www.arabpython.com/p/setup-python-environment-for-artificial-intelligence.html
+https://www.arabpython.com/2026/06/setup-python-environment-for-artificial-intelligence.html
 
 ## محتويات الحزمة
 
