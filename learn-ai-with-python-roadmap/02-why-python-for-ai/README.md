@@ -3,7 +3,7 @@
 ملفات تطبيقية للدرس الثاني من مسار **الذكاء الاصطناعي ببايثون** في موقع **بايثون العرب**.
 
 ## رابط الدرس
-https://www.arabpython.com/p/why-python-for-artificial-intelligence.html
+https://www.arabpython.com/2026/06/why-python-for-artificial-intelligence.html
 
 ## محتويات الحزمة
 
