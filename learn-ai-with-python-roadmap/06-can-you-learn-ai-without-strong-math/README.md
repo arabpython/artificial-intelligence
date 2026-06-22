@@ -4,7 +4,7 @@
 
 ## رابط الدرس
 
-https://www.arabpython.com/p/can-you-learn-artificial-intelligence-without-strong-math.html
+https://www.arabpython.com/2026/06/can-you-learn-artificial-intelligence-without-strong-math.html
 
 ## محتويات الحزمة
 
