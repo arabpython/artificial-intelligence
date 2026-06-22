@@ -4,7 +4,7 @@
 
 ## رابط الدرس
 
-https://www.arabpython.com/p/what-to-learn-before-artificial-intelligence.html
+https://www.arabpython.com/2026/06/what-to-learn-before-artificial-intelligence.html
 
 ## محتويات الحزمة
 
