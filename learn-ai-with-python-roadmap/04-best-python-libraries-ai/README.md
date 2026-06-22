@@ -4,7 +4,7 @@
 
 ## رابط الدرس
 
-https://www.arabpython.com/p/best-python-libraries-for-artificial-intelligence-beginners.html
+https://www.arabpython.com/2026/06/best-python-libraries-for-artificial-intelligence-beginners.html
 
 ## محتويات الحزمة
 
