@@ -4,7 +4,7 @@
 
 ## رابط الدرس
 
-https://www.arabpython.com/p/difference-between-python-and-python-for-artificial-intelligence.html
+https://www.arabpython.com/2026/06/difference-between-python-and-python-for-artificial-intelligence.html
 
 ## محتويات الحزمة
 
