@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: Amiri; src: url('file:///usr/share/fonts/opentype/fonts-hosny-amiri/Amiri-Regular.ttf'); }
+@font-face { font-family: Amiri; src: url('file:///usr/share/fonts/opentype/fonts-hosny-amiri/Amiri-Bold.ttf'); font-weight:700; }
+@page { size:A4; margin:0; }
+*{box-sizing:border-box}
+body{margin:0;font-family:Amiri,serif;color:#14213d;background:#fff;}
+.page{height:297mm;position:relative;padding:18mm 17mm 18mm;background:#fff;page-break-after:always;overflow:hidden}
+.footer{position:absolute;bottom:8mm;left:0;right:0;text-align:center;font-size:10pt;color:#7b8ba6}
+.cover{padding:16mm;background:#fff}
+.cover-card{height:262mm;border-radius:24px;padding:24mm 21mm;position:relative;overflow:hidden;color:#fff;background:linear-gradient(135deg,#082f49,#172554 55%,#4c1d95)}
+.cover-card:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 10% 20%,rgba(34,211,238,.2),transparent 30%),radial-gradient(circle at 85% 88%,rgba(167,139,250,.28),transparent 35%);}
+.cover-inner{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;justify-content:space-between}
+.pill{align-self:flex-start;border:1px solid rgba(255,255,255,.35);padding:6px 15px;border-radius:99px;font-size:16pt;background:rgba(255,255,255,.1)}
+.cover h1{font-size:38pt;line-height:1.35;margin:0 0 8mm;color:#fff}
+.cover h1 span{color:#67e8f9}
+.cover p{font-size:18pt;line-height:1.8;margin:0;max-width:85%}
+.cover-image{position:absolute;left:18mm;bottom:32mm;width:95mm;border-radius:18px;opacity:.9;filter:saturate(1.05)}
+.brand{font-size:22pt;font-weight:700;color:#dbeafe;position:absolute;bottom:22mm;right:22mm}
+.brand small{display:block;color:#93c5fd;font-weight:400;font-size:13pt;margin-top:2mm}
+h2{font-size:26pt;color:#113f7a;margin:0 0 4mm;border-right:6px solid #0ea5e9;padding-right:8px;line-height:1.4}
+h3{font-size:20pt;color:#113f7a;margin:7mm 0 2mm}
+p,li{font-size:15.5pt;line-height:1.8;margin:0 0 3mm}ul,ol{margin:0 0 4mm;padding-right:8mm}.grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm}.card{border:1px solid #d7e4f1;border-radius:14px;padding:5mm;background:#fbfdff}.code{direction:ltr;text-align:left;background:#111827;color:#e5eefc;border-radius:12px;padding:5mm;font-family:monospace;font-size:12pt;white-space:pre-wrap;line-height:1.45;margin:4mm 0}table{border-collapse:collapse;width:100%;font-size:13pt}th,td{border:1px solid #cfddeb;padding:3.3mm;text-align:right;vertical-align:top}th{background:#e9f4ff;color:#113f7a;font-weight:700}.tip{margin-top:5mm;padding:4.5mm 5mm;border-radius:12px;background:#ecfdf5;border-right:5px solid #10b981;font-size:15pt;line-height:1.7}.badge{display:inline-block;background:#e0f2fe;color:#075985;border-radius:99px;padding:3px 10px;font-size:13pt;margin-bottom:3mm} 
+</style>
+</head>
+<body>
+<section class="page cover"><div class="cover-card"><div class="cover-inner"><div class="pill">قسم الذكاء الاصطناعي - الدرس 03</div><div><h1>الفرق بين <span>AI</span><br>و Machine Learning<br>و Deep Learning</h1><p>كتيب مبسط للمبتدئين لفهم العلاقة بين الذكاء الاصطناعي وتعلم الآلة والتعلم العميق، ومعرفة متى نستخدم كل أسلوب.</p></div></div></div><div class="footer">ArabPython.com - بايثون العرب</div></section>
+<section class="page"><h2>الفكرة الأساسية</h2><p>العلاقة بين المصطلحات ليست معقدة: <strong>AI</strong> هو المجال الأوسع، و<strong>Machine Learning</strong> فرع يتعلم من البيانات، و<strong>Deep Learning</strong> فرع من تعلم الآلة يعتمد على شبكات عصبية متعددة الطبقات.</p><div class="grid"><div class="card"><h3>AI</h3><p>أنظمة تنفذ مهام ذكية. قد تعتمد على قواعد مكتوبة أو على بيانات ونماذج.</p></div><div class="card"><h3>Machine Learning</h3><p>نماذج تتعلم أنماطًا من أمثلة وبيانات لتصنيف أو توقع نتائج جديدة.</p></div><div class="card"><h3>Deep Learning</h3><p>شبكات عصبية متعددة الطبقات مفيدة للصور والصوت والنصوص والبيانات المعقدة.</p></div><div class="card"><h3>قاعدة البداية</h3><p>ابدأ بالمشكلة والبيانات، وليس بأكبر مكتبة أو أكثر نموذج متقدم.</p></div></div><h2 style="margin-top:8mm">قواعد أم تعلم من البيانات؟</h2><p>استخدم القواعد إذا كانت الشروط واضحة وثابتة. استخدم تعلم الآلة عندما تحتاج إلى اكتشاف علاقة من بيانات سابقة.</p><div class="code">if score &lt; 60:
+    print("يحتاج إلى مراجعة")</div><div class="footer">بايثون العرب - ArabPython.com</div></section>
+<section class="page"><h2>مثال تعلم آلة صغير</h2><p>في مشروع بسيط يمكن تدريب نموذج على ساعات الدراسة ودرجة الطالب. ساعات الدراسة هي الميزة <strong>Feature</strong>، والدرجة هي الهدف <strong>Target</strong>.</p><div class="code">data = pd.read_csv("data/study_scores.csv")
+X = data[["hours"]]
+y = data["score"]
+
+model = LinearRegression()
+model.fit(X, y)</div><h2 style="margin-top:8mm">مقارنة عملية</h2><table><thead><tr><th>النقطة</th><th>Machine Learning</th><th>Deep Learning</th></tr></thead><tbody><tr><td>البيانات</td><td>غالبًا بيانات منظمة ومتوسطة الحجم</td><td>غالبًا يحتاج بيانات أكبر</td></tr><tr><td>الميزات</td><td>قد تحتاج إعدادًا يدويًا</td><td>يتعلم كثيرًا من الميزات تلقائيًا</td></tr><tr><td>مناسب لـ</td><td>التوقع والتصنيف في الجداول</td><td>الصور والصوت والنصوص</td></tr><tr><td>بداية المبتدئ</td><td>scikit-learn</td><td>بعد فهم أساسيات ML</td></tr></tbody></table><div class="tip"><strong>تنبيه:</strong> لا تستخدم بيانات مصطنعة أو نموذجًا صغيرًا لاتخاذ قرارات حقيقية عن أشخاص. الأمثلة هنا للتعلم فقط.</div><div class="footer">بايثون العرب - ArabPython.com</div></section>
+<section class="page"><h2>طريقة التشغيل</h2><div class="code">python -m pip install -r requirements.txt
+python rule_based_classifier.py
+python train_simple_ml.py
+python compare_models.py</div><h2 style="margin-top:8mm">تمرين الدرس</h2><ol><li>شغّل البرنامج القائم على القواعد واكتب طلبات مختلفة.</li><li>أضف كلمة <code>صوت</code> إلى قواعد التصنيف.</li><li>شغّل نموذج تعلم الآلة وعدّل قيمة ساعات الدراسة.</li><li>اكتب الفرق بين قرار القاعدة ونتيجة التوقع من النموذج.</li></ol><h2 style="margin-top:8mm">نصيحة الدرس</h2><div class="tip">أفضل مشروع للمبتدئ ليس المشروع الذي يستخدم أكبر نموذج، بل المشروع الذي تفهم بياناته، وخطواته، ونتائجه، وأخطائه.</div><h2 style="margin-top:8mm">ما الخطوة التالية؟</h2><p>انتقل إلى فهم البيانات وملفات CSV، ثم ابدأ بتطبيق تحليل بيانات بسيط باستخدام Python وpandas.</p><div class="footer">بايثون العرب - ArabPython.com</div></section>
+</body></html>
